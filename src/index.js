@@ -104,7 +104,7 @@ scene.add(sphereMesh, boxMesh, torusMesh, planeMesh)
 // scene.add(rectangleLight)
 
 // Spotlight
-const spotLight = new THREE.SpotLight(0x78ff00, 4, 10, Math.PI * 0.1, 0.25, 2)
+const spotLight = new THREE.SpotLight(0x78ff00, 4, 10, Math.PI * 0.1, 0.25, 2) // We use Math.PI to get width of the spotlight. (Math.PI would have been 180) Penabra
 spotLight.position.set(0, 2, 3)
 scene.add(spotLight)
 
